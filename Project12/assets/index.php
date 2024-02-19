@@ -1,27 +1,18 @@
+<?php
+include "db.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navigation Menu</title>
+  <title>Project12</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="prj12.css">
+  <link rel="stylesheet" href="css/prj12.css">
 </head>
 <body>
-<?php
-$navItems = [
- "GIỚI THIỆU",
- "TIN TỨC & THÔNG BÁO",
- "TUYỂN SINH",
- "ĐÀO TẠO",
- "NGHIÊN CỨU",
- "ĐỐI NGOẠI",
- "VĂN BẢN",
- "SINH VIÊN",
- "LIÊN HỆ"
-];
-?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
