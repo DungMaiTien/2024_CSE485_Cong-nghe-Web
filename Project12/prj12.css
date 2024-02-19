@@ -1,0 +1,17 @@
+<style>
+    /* Custom CSS styles */
+    .custom-nav-item {
+        margin-right: 50px;
+        padding: 10px 0; /* Thêm padding 10px cho phần trên và dưới */
+        margin: 0 -15px; /* Loại bỏ margin mặc định và thêm margin âm để bám lề trái, phải */
+    }
+    .navbar-nav {
+        background: rgb(173, 97, 243);
+        
+    }
+    .nav-link {
+        font-size: 25px; /* Font chữ to hơn */
+        font-family: Arial, sans-serif; /* Kiểu chữ Arial */
+        color: aliceblue;
+    }
+</style>
