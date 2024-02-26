@@ -1,0 +1,40 @@
+/* CSS cho sản phẩm */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 23%; /* 4 sản phẩm trên mỗi hàng */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product h2 {
+    margin-top: 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+/* CSS cho phân trang */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a,
+.pagination .active {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination .active {
+    background-color: #ccc;
+}
