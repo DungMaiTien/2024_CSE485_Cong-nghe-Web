@@ -1,0 +1,58 @@
+/* Thiết lập kích thước cố định cho ảnh */
+.card-img-top {
+    width: 100%;
+    height: 320px; /* Điều chỉnh kích thước chiều cao tùy ý */
+    object-fit: cover; /* Hiển thị ảnh mà không bị biến dạng */
+}
+
+/* Hiệu ứng phóng to khi di chuột vào */
+.card {
+    position: relative; /* Đặt thẻ card là relative để làm việc với absolute của nút */
+    transition: transform 0.3s;
+    border-radius: 15px; /* Độ cong của góc */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Phóng to 110% khi di chuột vào */
+}
+
+/* Nút Xem thêm */
+.card .btn-primary {
+    position: absolute;
+    bottom: 0; /* Hiện nút ở dưới cùng của thẻ card */
+    left: 0; /* Nút bắt đầu từ mép trái của thẻ card */
+    width: 100%; /* Nút chiếm toàn bộ chiều rộng của thẻ card */
+    opacity: 0; /* Ẩn nút ban đầu */
+    transition: opacity 0.3s, transform 0.3s; /* Hiệu ứng hiển thị và di chuyển */
+    transform: translateY(100%); /* Ẩn nút dưới mép dưới của thẻ card */
+    display: inline-block; /* Hiển thị nút như là một phần tử inline-block */
+    margin-bottom: -5px; 
+    color: black; /* Đổi màu chữ thành màu đen */
+    background-color: #808080; /* Màu xám */
+    font-size: 14px; /* Đặt kích thước chữ */
+    padding: 8px 0; /* Đặt khoảng cách giữa nút và mép dưới của thẻ card */
+}
+
+.card:hover .btn-primary {
+    opacity: 1; /* Hiển thị nút khi di chuột vào */
+    transform: translateY(0); /* Di chuyển nút lên trên */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    height: 120px; /* Điều chỉnh chiều cao cố định của card-body */
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu chấm (...) nếu tràn dòng */
+    white-space: nowrap; 
+    width: 100%; /* Đảm bảo độ rộng tối đa */
+    font-size: 17px; /* Đặt kích thước chữ */
+    margin-bottom: 5px; /* Đặt khoảng cách giữa title và position */
+}
+
+
+
