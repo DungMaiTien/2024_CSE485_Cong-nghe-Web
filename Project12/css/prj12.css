@@ -1,0 +1,12 @@
+.custom-nav-item {
+        margin-right: 50px;
+}
+.navbar-nav {
+        background: rgb(173, 97, 243);
+        
+}
+.nav-link {
+        font-size: 20px; /* Font chữ to hơn */
+        font-family: Arial, Helvetica, sans-serif; 
+        color: aliceblue;
+}
